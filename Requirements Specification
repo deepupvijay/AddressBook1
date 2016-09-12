@@ -1,0 +1,26 @@
+Address book application
+Requirement specification
+Write a simple application using a development framework of your choice (unless
+otherwise specified) that does the following:
+1. Register as a new user: This allows a new user to register with the following
+fields First name, Last name, Username, Password.
+2. Ability for an existing user to login: The users that have already registered, as
+a user on the site should be able to login with their username and password.
+3. Address book maintenance: The application should allow the registered users
+to maintain an address book for their contacts. This will include the following
+information:
+a. First name
+b. Last name
+c. Address
+d. Phone number
+4. Geocoding and address validation: The application should carry out a simple
+validation against the Google maps API to validate the address entered by the
+user and also receive the details associated with the address such as the
+accurate street, city, state, postal code, geo-coded location (latitude & longitude)
+5. Google street view: When looking at a contact’s address that has already been
+added to the application, the page should show the picture as captured by the
+Google street view. Please use the Google Maps API to produce this as well.
+6. Walk-score: When looking at an address that is already added to the
+application, the walk-score of the address should be fetched and displayed as
+well. Please view http://www.walkscore.com for details. You will have to register
+for a trial developer account to be able to do so.
